@@ -13,7 +13,7 @@ function Deleted() {
   const [allDeletedTodos, setallDeletedTodos] = useState([])
 
   useEffect(() => {
-    const q=query(collection(db,'favourite'))
+    const q=query(collection(db,'Deleted'))
     const unsubScribe = onSnapshot(q,(QuerySnapshot) =>{
       let todoArr = []
       QuerySnapshot.forEach((doc) =>{
