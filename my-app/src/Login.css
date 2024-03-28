@@ -1,0 +1,277 @@
+/* .login-signup{
+   height: 100vh; 
+} */
+.group-icon {
+  width: 40px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+}
+.group-wrapper {
+  height: 144.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 79px 0 0;
+  box-sizing: border-box;
+}
+.login {
+  width: 103px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.login-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 29px 0 var(--padding-xl);
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.text {
+  width: 72px;
+  position: relative;
+  line-height: 22px;
+  display: none;
+}
+.button {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  background-color: #597ef7;
+  box-shadow: var(--drop-shadow-button-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 16px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.sign-in-using {
+  height: 47px;
+  width: 287px;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.google-signin-btn-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--character-primaryinverse);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.grommet-iconsgoogle {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.google-signin-btn {
+  height: calc(100% - 12px);
+  width: 58px;
+  position: absolute;
+  margin: 0 !important;
+  top: 6px;
+  bottom: 6px;
+  left: 6px;
+  border-radius: var(--br-8xs);
+  background-color: var(--character-primaryinverse);
+  z-index: 1;
+}
+.google-logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 18px 0 4px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.button-instance,
+.frame-group,
+.lorem-ipsum-dolor-sit-amet-co-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.button-instance {
+  width: 479px;
+  flex-direction: row;
+  padding: 0 46px;
+  box-sizing: border-box;
+  font-size: var(--body-regular-size);
+  color: var(--character-primaryinverse);
+}
+.frame-group,
+.lorem-ipsum-dolor-sit-amet-co-parent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.lorem-ipsum-dolor-sit-amet-co-parent {
+  gap: 57px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: rgba(0, 0, 0, 0.55);
+}
+.frame-group {
+  gap: 27px;
+}
+.brands-instagram {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brands-instagram-wrapper {
+  width: 232px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.desktop-1-inner,
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  width: 516px;
+  gap: 269px;
+}
+.desktop-1-inner {
+  width: 567px;
+  padding: 363px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.illustration-export-icon {
+  height: 1024px;
+  width: 853px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.desktop-1,
+.login-signup {
+  background-color: var(--character-primaryinverse);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desktop-1 {
+  width: 1600px;
+  flex-shrink: 0;
+  padding: 1px 108px 15px;
+  box-sizing: border-box;
+  gap: 18px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 33.1px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: var(--body-regular);
+}
+.login-signup {
+  position: relative;
+  width: 100%;
+  letter-spacing: normal;
+}
+.button-instance{
+  /* background-color: aquamarine; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1525px) {
+  .desktop-1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .desktop-1-inner {
+    padding-top: 236px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    padding-left: var(--padding-35xl);
+    padding-right: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .login {
+    font-size: var(--font-size-7xl);
+  }
+  .button-instance {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .lorem-ipsum-dolor-sit-amet-co-parent {
+    gap: 28px 57px;
+  }
+  .frame-parent {
+    gap: 134px 269px;
+  }
+  .desktop-1-inner {
+    padding-top: 153px;
+    box-sizing: border-box;
+  }
+  .desktop-1 {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-xl);
+  }
+  .lorem-ipsum-dolor {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .sign-in-using {
+    font-size: 21px;
+  }
+  .frame-parent {
+    gap: 67px 269px;
+  }
+}

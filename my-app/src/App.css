@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.App{
+  height: 100vh;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-regular: Roboto;
+
+  /* font sizes */
+  --font-size-7xl: 26px;
+  --body-regular-size: 14px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --character-primaryinverse: #fff;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+  --padding-35xl: 54px;
+  --padding-xl: 20px;
+  --padding-4xl: 23px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+
+  /* Effects */
+  --drop-shadow-button-primary: 0px 2px 0px rgba(0, 0, 0, 0.04);
+}
+
